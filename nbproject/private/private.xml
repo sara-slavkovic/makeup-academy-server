@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Korisnik/Desktop/pro%20soft%20projekat/ServerSara/src/server/Settings.java</file>
+            <file>file:/C:/Users/Korisnik/Desktop/pro%20soft%20projekat/ServerSara/src/operation/kurs/KreirajKurs.java</file>
+            <file>file:/C:/Users/Korisnik/Desktop/pro%20soft%20projekat/ServerSara/src/server/thread/ProcessClientRequests.java</file>
+            <file>file:/C:/Users/Korisnik/Desktop/pro%20soft%20projekat/ServerSara/src/operation/prijava/IzmeniPrijavu.java</file>
+            <file>file:/C:/Users/Korisnik/Desktop/pro%20soft%20projekat/ServerSara/src/controller/Controller.java</file>
+            <file>file:/C:/Users/Korisnik/Desktop/pro%20soft%20projekat/ServerSara/src/repository/db/impl/RepositoryDBGeneric.java</file>
+            <file>file:/C:/Users/Korisnik/Desktop/pro%20soft%20projekat/ServerSara/src/repository/db/DbRepository.java</file>
+            <file>file:/C:/Users/Korisnik/Desktop/pro%20soft%20projekat/ServerSara/src/repository/Repository.java</file>
+            <file>file:/C:/Users/Korisnik/Desktop/pro%20soft%20projekat/ServerSara/src/operation/grupa/KreirajGrupu.java</file>
+            <file>file:/C:/Users/Korisnik/Desktop/pro%20soft%20projekat/ServerSara/src/forms/controller/MainController.java</file>
+            <file>file:/C:/Users/Korisnik/Desktop/pro%20soft%20projekat/ServerSara/src/operation/AbstractGenericOperation.java</file>
+            <file>file:/C:/Users/Korisnik/Desktop/pro%20soft%20projekat/ServerSara/src/forms/coordinator/MainCoordinator.java</file>
+            <file>file:/C:/Users/Korisnik/Desktop/pro%20soft%20projekat/ServerSara/src/operation/grupa/UcitajMaksIdGrupa.java</file>
+        </group>
+    </open-files>
+</project-private>
