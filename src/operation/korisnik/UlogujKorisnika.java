@@ -27,7 +27,7 @@ public class UlogujKorisnika extends AbstractGenericOperation {
     @Override
     protected void executeOperation(Object param) throws Exception{
         Korisnik k = (Korisnik) param;
-        this.genericEntity = repository.uloguj(k, k.getKorisnickoIme(), k.getLozinka());
+        this.genericEntity = repository.uloguj(k);
     }
 
     public GenericEntity getGenericEntity() {

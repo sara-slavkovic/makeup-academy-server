@@ -26,7 +26,7 @@ public class UcitajPredavaca extends AbstractGenericOperation {
     @Override
     protected void executeOperation(Object param) throws Exception {
         Predavac predavac = (Predavac) param;
-        genericEntity = repository.nadji(predavac, predavac.getIdPredavaca());
+        genericEntity = repository.nadji(predavac);
     }
 
     public GenericEntity getGenericEntity() {

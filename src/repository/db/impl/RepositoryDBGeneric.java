@@ -91,11 +91,12 @@ public class RepositoryDBGeneric implements DbRepository<GenericEntity> {
     }
 
     @Override
-    public GenericEntity uloguj(GenericEntity entity, String username, String password) throws Exception {
+    public GenericEntity uloguj(GenericEntity entity) throws Exception {
         GenericEntity genericEntity = null;
         try {
-            String query = "SELECT * FROM " + entity.getTableName() + " WHERE korisnickoIme='" + username
-                    + "' AND lozinka='" + password + "'";
+            String query = "SELECT * FROM " + entity.getTableName() + " WHERE " + entity.getLogin(entity);
+            //String query = "SELECT * FROM " + entity.getTableName() + " WHERE korisnickoIme='" + username
+            //        + "' AND lozinka='" + password + "'";
             Connection connection = DbConnectionFactory.getInstance().getConnection();
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(query);
@@ -128,10 +129,11 @@ public class RepositoryDBGeneric implements DbRepository<GenericEntity> {
     }
 
     @Override
-    public GenericEntity nadji(GenericEntity entity, int id) throws Exception {
+    public GenericEntity nadji(GenericEntity entity) throws Exception {
         GenericEntity genericEntity = null;
         try {
-            String query = "SELECT * FROM " + entity.getTableName() + " WHERE id=" + id;
+            String query = "SELECT * FROM " + entity.getTableName() + " WHERE id=" + entity.getID(entity);
+            //String query = "SELECT * FROM " + entity.getTableName() + " WHERE id=" + id;
             Connection connection = DbConnectionFactory.getInstance().getConnection();
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(query);

@@ -26,7 +26,7 @@ public class UcitajGrupu extends AbstractGenericOperation {
     @Override
     protected void executeOperation(Object param) throws Exception {
         Grupa grupa = (Grupa) param;
-        genericEntity = repository.nadji(grupa, grupa.getIdGrupe());
+        genericEntity = repository.nadji(grupa);
     }
 
     public GenericEntity getGenericEntity() {

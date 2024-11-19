@@ -26,7 +26,7 @@ public class UcitajTipSminkanja extends AbstractGenericOperation {
     @Override
     protected void executeOperation(Object param) throws Exception {
         TipSminkanja ts = (TipSminkanja) param;
-        genericEntity = repository.nadji(ts, ts.getIdTipaSminkanja());
+        genericEntity = repository.nadji(ts);
     }
 
     public GenericEntity getGenericEntity() {

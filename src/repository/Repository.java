@@ -5,7 +5,6 @@
 package repository;
 
 import domain.GenericEntity;
-import domain.Predavac;
 import java.util.List;
 
 /**
@@ -23,9 +22,9 @@ public interface Repository<T> {
     public void promeni(T param) throws Exception;
     public void obrisi(T param) throws Exception;
     /////////////////////////////////////////////
-    public GenericEntity uloguj(GenericEntity entity, String username, String password) throws Exception;
+    public GenericEntity uloguj(GenericEntity entity) throws Exception;
     public List<GenericEntity> nadjiPoKorisnickomImenuIMejlu(GenericEntity entity, String mejl, String korisnickoIme) throws Exception;
-    public GenericEntity nadji(GenericEntity entity, int id) throws Exception;
+    public GenericEntity nadji(GenericEntity entity) throws Exception;
     public List<GenericEntity> filter(GenericEntity entity) throws Exception;
     public int vratiMaksId(GenericEntity entity) throws Exception;
     public void promeniPrijavu(GenericEntity entity) throws Exception;

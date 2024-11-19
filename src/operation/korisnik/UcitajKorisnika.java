@@ -26,7 +26,7 @@ public class UcitajKorisnika extends AbstractGenericOperation {
     @Override
     protected void executeOperation(Object param) throws Exception {
         Korisnik k = (Korisnik) param;
-        genericEntity = repository.nadji(k, k.getIdKorisnika());
+        genericEntity = repository.nadji(k);
     }
 
     public GenericEntity getGenericEntity() {
